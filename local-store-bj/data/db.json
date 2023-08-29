@@ -1,0 +1,116 @@
+{
+  "inventory": [
+    {
+      "id": 1,
+      "title": "Vestido floral primaveral",
+      "price": 49.99,
+      "description": "Un hermoso vestido floral perfecto para la temporada de primavera. Hecho con tela ligera y cómoda.",
+      "category": "Vestidos",
+      "image": "imagen1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Camiseta básica blanca",
+      "price": 19.99,
+      "description": "Una camiseta básica de algodón en color blanco. Ideal para combinar con cualquier outfit.",
+      "category": "Camisetas",
+      "image": "imagen2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Jeans ajustados",
+      "price": 59.99,
+      "description": "Jeans ajustados de corte moderno. Confeccionados con denim de alta calidad y diseño elegante.",
+      "category": "Pantalones",
+      "image": "imagen3.jpg"
+    },
+    {
+      "id": 4,
+      "title": "Chaqueta de cuero clásica",
+      "price": 129.99,
+      "description": "Chaqueta de cuero genuino con estilo clásico. Perfecta para lucir audaz y elegante.",
+      "category": "Chaquetas",
+      "image": "imagen4.jpg"
+    },
+    {
+      "id": 5,
+      "title": "Zapatillas deportivas AirFlex",
+      "price": 89.99,
+      "description": "Zapatillas deportivas con tecnología AirFlex para mayor comodidad y amortiguación durante el ejercicio.",
+      "category": "Calzado",
+      "image": "imagen5.jpg"
+    },
+    {
+      "id": 6,
+      "title": "Blusa de encaje elegante",
+      "price": 39.99,
+      "description": "Blusa de encaje con diseño elegante. Ideal para ocasiones especiales o salidas nocturnas.",
+      "category": "Blusas",
+      "image": "imagen6.jpg"
+    },
+    {
+      "id": 7,
+      "title": "Blusa de encaje",
+      "price": 39.99,
+      "description": "Blusa de encaje con diseño de flores.",
+      "category": "Blusa",
+      "image": "imagen7.jpg"
+    },
+    {
+      "id": 8,
+      "title": "Blusa de encaje elegante",
+      "price": 39.99,
+      "description": "Blusa de encaje con diseño de flores. Ideal para ocasiones especiales o salidas nocturnas.",
+      "category": "Blusa",
+      "image": "imagen6.jpg"
+    },
+    {
+      "id": 10,
+      "title": "Suéter de punto suave",
+      "price": 49.99,
+      "description": "Suéter de punto suave y cálido, perfecto para los días fríos. Diseño cómodo y versátil.",
+      "category": "Suéteres",
+      "image": "imagen10.jpg"
+    },
+    {
+      "id": 15,
+      "title": "Vestido  primaveral",
+      "price": 51.99,
+      "description": "Un hermoso vestido floral perfecto para la temporada de primavera. Hecho con tela ligera y cómoda.",
+      "category": "Vestidos",
+      "image": "imagen15.jpg"
+    },
+    {
+      "title": "Vestido largo",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen16.jpg",
+      "id": 16
+    }
+  ],
+  "users": [
+    {
+      "createdAt": "2023-07-14T08:49:57.780Z",
+      "name": "Emiliano",
+      "lastName": "Salazar",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/575.jpg",
+      "email": "salazaremiliano84@gmail.com",
+      "rol": "Administrator",
+      "dni": "31104967",
+      "password": "12345",
+      "id": 1
+    },
+    {
+      "createdAt": "2023-07-13T23:47:49.173Z",
+      "name": "Ambrose",
+      "lastName": "Schamberger",
+      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
+      "email": "Bart44@yahoo.com",
+      "rol": "Administrator",
+      "dni": "dni 2",
+      "password": "1976-10-14T06:03:52.096Z",
+      "id": 2
+    }
+  ]
+}
