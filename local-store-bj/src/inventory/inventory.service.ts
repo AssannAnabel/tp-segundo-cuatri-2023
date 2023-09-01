@@ -1,9 +1,9 @@
-import { Body, Injectable } from '@nestjs/common';
-const URL_inventary='http://localhost:3030/inventary';
+import {Injectable } from '@nestjs/common';
+const URL_inventory='http://localhost:3030/inventory';
 import { Inventory } from './inventory.interface';
 
 @Injectable()
-export class InventaryService {
+export class InventoryService {
 
     private async setId(): Promise<number> {
         const invtry = await this.getInvtry();
@@ -11,7 +11,7 @@ export class InventaryService {
         return id;
     }
     private async getAll(): Promise<Inventory[]> {//contiene todos los datos del inventario
-        const res = await fetch(URL_inventary);
+        const res = await fetch(URL_inventory);
         const parsed = await res.json();
         return parsed;
     }
@@ -26,7 +26,7 @@ export class InventaryService {
 //GETBYID
     async getInvtryById(id: number): Promise<Inventory> {
         try {
-            const res = await fetch(URL_inventary + id, {
+            const res = await fetch(URL_inventory + id, {
                 method: 'GET',
                 headers: {
                     'Content-Type': 'application/json',
@@ -43,7 +43,7 @@ export class InventaryService {
         try {
             const id = await this.setId();
             const newInvtry = { ...invtry, id };
-            const res = await fetch(URL_inventary, {
+            const res = await fetch(URL_inventory, {
                 method: 'POST',
                 headers: {
                     'Content-Type:': 'application/json',
@@ -59,7 +59,7 @@ export class InventaryService {
 //DELETE
     async deleteInvtryById(id: number): Promise<Inventory> {
         try {
-            const res = await fetch(URL_inventary + id, {
+            const res = await fetch(URL_inventory + id, {
                 method: 'DELETE',
                 headers: {
                     'Content-Type': 'application/json',
@@ -78,7 +78,7 @@ export class InventaryService {
             //Object.keys verifica si isInvtry viene con datos, y si no, se detiene ahi.
             if (!Object.keys(isInvtry).length) return;
             const updateInvtry = { ...invtry, id };
-            const res = await fetch(URL_inventary + id, {
+            const res = await fetch(URL_inventory + id, {
                 method: 'PUT',
                 headers: {
                     'Content-Type': 'application/json',

@@ -1,12 +1,12 @@
 {
   "inventory": [
     {
-      "id": 1,
-      "title": "Vestido floral primaveral",
-      "price": 49.99,
-      "description": "Un hermoso vestido floral perfecto para la temporada de primavera. Hecho con tela ligera y cómoda.",
+      "title": "pollera larga naranja",
+      "price": 54.99,
+      "description": "Un hermosa pollera naranja con amarillo",
       "category": "Vestidos",
-      "image": "imagen1.jpg"
+      "image": "imagen24.jpg",
+      "id": 1
     },
     {
       "id": 2,
@@ -41,12 +41,12 @@
       "image": "imagen5.jpg"
     },
     {
-      "id": 6,
-      "title": "Blusa de encaje elegante",
-      "price": 39.99,
-      "description": "Blusa de encaje con diseño elegante. Ideal para ocasiones especiales o salidas nocturnas.",
-      "category": "Blusas",
-      "image": "imagen6.jpg"
+      "title": "pollera larga naranja",
+      "price": 54.99,
+      "description": "Un hermoso pollera naranja",
+      "category": "Vestidos",
+      "image": "imagen24.jpg",
+      "id": 6
     },
     {
       "id": 7,
@@ -87,30 +87,78 @@
       "category": "Vestidos",
       "image": "imagen16.jpg",
       "id": 16
-    }
-  ],
-  "users": [
-    {
-      "createdAt": "2023-07-14T08:49:57.780Z",
-      "name": "Emiliano",
-      "lastName": "Salazar",
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/575.jpg",
-      "email": "salazaremiliano84@gmail.com",
-      "rol": "Administrator",
-      "dni": "31104967",
-      "password": "12345",
-      "id": 1
     },
     {
-      "createdAt": "2023-07-13T23:47:49.173Z",
-      "name": "Ambrose",
-      "lastName": "Schamberger",
-      "avatar": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/252.jpg",
-      "email": "Bart44@yahoo.com",
-      "rol": "Administrator",
-      "dni": "dni 2",
-      "password": "1976-10-14T06:03:52.096Z",
-      "id": 2
+      "title": "Vestido corto con estampa",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen18.jpg",
+      "id": 17
+    },
+    {
+      "title": "pollera corto con estampa",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen19.jpg",
+      "id": 18
+    },
+    {
+      "title": "pollera larga roja",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen20.jpg",
+      "id": 19
+    },
+    {
+      "title": "pollera larga amarilla",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen22.jpg",
+      "id": 20
+    },
+    {
+      "title": "pollera larga verde",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen23.jpg",
+      "id": 21
+    },
+    {
+      "title": "pollera larga azul",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen24.jpg",
+      "id": 22
+    },
+    {
+      "title": "pollera larga fucsia",
+      "price": 53.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen24.jpg",
+      "id": 23
+    },
+    {
+      "title": "pollera larga naranja",
+      "price": 54.99,
+      "description": "Un hermoso vestido largo de modal",
+      "category": "Vestidos",
+      "image": "imagen24.jpg",
+      "id": 24
+    },
+    {
+      "title": "chaleco naranja",
+      "price": 54.99,
+      "description": "Un hermosa chaleco naranja con amarillo",
+      "category": "Vestidos",
+      "image": "imagen27.jpg",
+      "id": 25
     }
   ]
 }
