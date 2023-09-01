@@ -1,15 +1,13 @@
 import { Controller,Get,Post,Put,Delete,Param,Body,Res,HttpStatus, NotFoundException, BadRequestException } from '@nestjs/common';
 import { InventoryService } from './inventory.service';
 import {Inventory} from './inventory.interface';
-import { Response } from 'express';
-
 
 @Controller('inventory')
 export class InventoryController {
     constructor(private readonly inventoryService:InventoryService){}
 
     @Get()
-    async getInvtry(@Res() res:Response):Promise<Response<Inventory[]>>{
+    async getInvtry(@Res() res):Promise<Inventory[]>{
        try{
        const serviceRes = await this.inventoryService.getInvtry()
         return res.status(HttpStatus.OK).send(serviceRes);
@@ -18,23 +16,19 @@ export class InventoryController {
         
     }
 }
-
-
-    @Get(':id')
-     async getInvtryById(@Param('id') id: number,@Res() res:Response):Promise<Response<Inventory[]>>{
-        try{
-         const serviceRes= await this.inventoryService.getInvtryById(id);
-         if(serviceRes.success){
-            return res.status(HttpStatus.OK).send(serviceRes)
-         } else{
-            return res.status(HttpStatus.NOT_FOUND).send(serviceRes)
-         }
-        } catch (error){
-        throw new BadRequestException(`cannot get inventory with id ${id}`)
+@Get(':id')
+    async getInvtryById(@Param('id') id: number, @Res() res): Promise<Inventory> {
+        try {
+            const invtryResFromService = await this.inventoryService.getInvtryById(id);
+            if (Object.keys(invtryResFromService).length) {
+                return res.status(HttpStatus.OK).json(invtryResFromService);
+            }
+        } catch (error) {
+            return res.status(HttpStatus.NOT_FOUND).json({ message: `El registro de inventario con id ${id} no existe`, error: 404 })
+        }
     }
-}
     @Post()
-    async createInvtry(@Body() invtry: Inventory,@Res() res:Response) {
+    async createInvtry(@Body() invtry: Inventory,@Res() res):Promise<Inventory> {
         try{
         const serviceRes= await this.inventoryService.createInvtry(invtry)
     return res.status(HttpStatus.CREATED).send(serviceRes)
@@ -44,9 +38,9 @@ export class InventoryController {
     }
 
     @Delete(':id')
-    async deleteInvtryById(@Param ('id') id: number, @Res() res:Response) {
+    async deleteInvtryById(@Param ('id') id: number, @Res() res) {
         try{
-            const serviceRes= await this.inventoryService.getInvtryById(id);
+            const serviceRes= await this.inventoryService.deleteInvtryById(id);
             if(serviceRes.success){
                 return res.status(HttpStatus.OK).send({...serviceRes})
             } else{
@@ -58,7 +52,7 @@ export class InventoryController {
     }
     
     @Put(':id')
-    async updateInvtryById(@Param('id') id: number, @Body() invtry: Inventory,@Res() res:Response) {
+    async updateInvtryById(@Param('id') id: number, @Body() invtry: Inventory,@Res() res) {
         try{
         const serviceRes= await this.inventoryService.updateInvtryById(id, invtry);
         if(serviceRes.success){

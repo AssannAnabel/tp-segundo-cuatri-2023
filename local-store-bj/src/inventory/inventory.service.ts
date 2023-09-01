@@ -1,5 +1,5 @@
-import {Injectable } from '@nestjs/common';
-const URL_inventory='http://localhost:3030/inventory';
+import {Injectable, NotFoundException } from '@nestjs/common';
+const URL_inventory='http://localhost:3030/inventory/';
 import { Inventory } from './inventory.interface';
 
 @Injectable()
@@ -46,7 +46,7 @@ export class InventoryService {
             const res = await fetch(URL_inventory, {
                 method: 'POST',
                 headers: {
-                    'Content-Type:': 'application/json',
+                    'Content-Type': 'application/json',
                 },
                 body: JSON.stringify(newInvtry)
             });

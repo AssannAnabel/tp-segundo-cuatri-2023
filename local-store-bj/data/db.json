@@ -1,164 +1,447 @@
 {
   "inventory": [
     {
-      "title": "pollera larga naranja",
-      "price": 54.99,
-      "description": "Un hermosa pollera naranja con amarillo",
-      "category": "Vestidos",
-      "image": "imagen24.jpg",
-      "id": 1
+      "id": 1,
+      "code": "FER001",
+      "product": "Martillo",
+      "description": "Martillo de carpintero de 16 oz, ideal para trabajos de construcción y carpintería.",
+      "price": 502.12,
+      "item": "Ferretería",
+      "amount": 20,
+      "imagenes": []
     },
     {
       "id": 2,
-      "title": "Camiseta básica blanca",
-      "price": 19.99,
-      "description": "Una camiseta básica de algodón en color blanco. Ideal para combinar con cualquier outfit.",
-      "category": "Camisetas",
-      "image": "imagen2.jpg"
+      "code": "FER002",
+      "product": "Destornillador Set",
+      "description": "Juego de destornilladores Phillips y planos con mangos ergonómicos.",
+      "price": 2035.15,
+      "item": "Ferretería",
+      "amount": 30,
+      "imagenes": []
     },
     {
       "id": 3,
-      "title": "Jeans ajustados",
-      "price": 59.99,
-      "description": "Jeans ajustados de corte moderno. Confeccionados con denim de alta calidad y diseño elegante.",
-      "category": "Pantalones",
-      "image": "imagen3.jpg"
+      "code": "FER003",
+      "product": "Sierra Manual",
+      "description": "Sierra manual para corte de madera con hoja afilada de alta calidad.",
+      "price": 1003.32,
+      "item": "Ferretería",
+      "amount": 15,
+      "imagenes": []
     },
     {
       "id": 4,
-      "title": "Chaqueta de cuero clásica",
-      "price": 129.99,
-      "description": "Chaqueta de cuero genuino con estilo clásico. Perfecta para lucir audaz y elegante.",
-      "category": "Chaquetas",
-      "image": "imagen4.jpg"
+      "code": "FER004",
+      "product": "Cinta Métrica",
+      "description": "Cinta métrica de 5 metros con bloqueo y marca de inicio.",
+      "price": 435.2,
+      "item": "Ferretería",
+      "amount": 50,
+      "imagenes": []
     },
     {
       "id": 5,
-      "title": "Zapatillas deportivas AirFlex",
-      "price": 89.99,
-      "description": "Zapatillas deportivas con tecnología AirFlex para mayor comodidad y amortiguación durante el ejercicio.",
-      "category": "Calzado",
-      "image": "imagen5.jpg"
+      "code": "FER005",
+      "product": "Taladro Inalámbrico",
+      "description": "Taladro inalámbrico de alta potencia con batería recargable.",
+      "price": 20001.25,
+      "item": "Ferretería",
+      "amount": 10,
+      "imagenes": []
     },
     {
-      "title": "pollera larga naranja",
-      "price": 54.99,
-      "description": "Un hermoso pollera naranja",
-      "category": "Vestidos",
-      "image": "imagen24.jpg",
-      "id": 6
+      "id": 6,
+      "code": "FER006",
+      "product": "Llave Ajustable",
+      "description": "Llave ajustable de 10 pulgadas para tuercas y tornillos.",
+      "price": 4025.21,
+      "item": "Ferretería",
+      "amount": 25,
+      "imagenes": []
     },
     {
       "id": 7,
-      "title": "Blusa de encaje",
-      "price": 39.99,
-      "description": "Blusa de encaje con diseño de flores.",
-      "category": "Blusa",
-      "image": "imagen7.jpg"
+      "code": "FER007",
+      "product": "Pistola de Calor",
+      "description": "Pistola de calor para trabajos de soldadura y termoformado.",
+      "price": 999.99,
+      "item": "Ferretería",
+      "amount": 8,
+      "imagenes": []
     },
     {
       "id": 8,
-      "title": "Blusa de encaje elegante",
-      "price": 39.99,
-      "description": "Blusa de encaje con diseño de flores. Ideal para ocasiones especiales o salidas nocturnas.",
-      "category": "Blusa",
-      "image": "imagen6.jpg"
+      "code": "FER008",
+      "product": "Serrucho",
+      "description": "Serrucho de corte fino con dientes afilados para madera y plástico.",
+      "price": 1122.12,
+      "item": "Ferretería",
+      "amount": 18,
+      "imagenes": []
+    },
+    {
+      "id": 9,
+      "code": "FER009",
+      "product": "Nivel de Burbuja",
+      "description": "Nivel de burbuja de 12 pulgadas para alineación precisa.",
+      "price": 605.65,
+      "item": "Ferretería",
+      "amount": 40,
+      "imagen": []
     },
     {
       "id": 10,
-      "title": "Suéter de punto suave",
-      "price": 49.99,
-      "description": "Suéter de punto suave y cálido, perfecto para los días fríos. Diseño cómodo y versátil.",
-      "category": "Suéteres",
-      "image": "imagen10.jpg"
+      "code": "FER010",
+      "product": "Tornillos Set",
+      "description": "Set de tornillos variados de diferentes tamaños y tipos.",
+      "price": 301.55,
+      "item": "Ferretería",
+      "amount": 100,
+      "imagenes": []
+    },
+    {
+      "id": 11,
+      "code": "FER011",
+      "product": "Alicates",
+      "description": "Alicates multifuncionales para cortar, doblar y sujetar.",
+      "price": 604.4,
+      "item": "Ferretería",
+      "amount": 28,
+      "imagenes": []
+    },
+    {
+      "id": 12,
+      "code": "FER012",
+      "product": "Pintura en Aerosol",
+      "description": "Pintura en aerosol de secado rápido y amplia gama de colores.",
+      "price": 1403.2,
+      "item": "Ferretería",
+      "amount": 60,
+      "imagenes": []
+    },
+    {
+      "id": 13,
+      "code": "FER013",
+      "product": "Brocas Set",
+      "description": "Set de brocas para taladro de diversos tamaños y tipos de perforación.",
+      "price": 3025.25,
+      "item": "Ferretería",
+      "amount": 25,
+      "imagenes": []
+    },
+    {
+      "id": 14,
+      "code": "FER014",
+      "product": "Gafas de Seguridad",
+      "description": "Gafas de seguridad con protección UV y resistencia a impactos.",
+      "price": 1254.23,
+      "item": "Ferretería",
+      "amount": 35,
+      "imagenes": []
     },
     {
       "id": 15,
-      "title": "Vestido  primaveral",
-      "price": 51.99,
-      "description": "Un hermoso vestido floral perfecto para la temporada de primavera. Hecho con tela ligera y cómoda.",
-      "category": "Vestidos",
-      "image": "imagen15.jpg"
+      "code": "FER015",
+      "product": "Cerradura",
+      "description": "Cerradura de seguridad para puertas con llaves.",
+      "price": 6352.23,
+      "item": "Ferretería",
+      "amount": 12,
+      "imagenes": []
     },
     {
-      "title": "Vestido largo",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen16.jpg",
-      "id": 16
+      "id": 16,
+      "code": "FER016",
+      "product": "Escalera Plegable",
+      "description": "Escalera plegable de aluminio de 6 pies de altura.",
+      "price": 10563.23,
+      "item": "Ferretería",
+      "amount": 6,
+      "imagenes": []
     },
     {
-      "title": "Vestido corto con estampa",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen18.jpg",
-      "id": 17
+      "id": 17,
+      "code": "FER017",
+      "product": "Cepillo de Carpintero",
+      "description": "Cepillo de carpintero con cuchillas intercambiables para acabados finos.",
+      "price": 702.65,
+      "item": "Ferretería",
+      "amount": 20,
+      "imagenes": []
     },
     {
-      "title": "pollera corto con estampa",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen19.jpg",
-      "id": 18
+      "id": 18,
+      "code": "FER018",
+      "product": "Clavos Set",
+      "description": "Set de clavos de diferentes longitudes y tipos para proyectos de construcción.",
+      "price": 865.65,
+      "item": "Ferretería",
+      "amount": 200,
+      "imagenes": []
     },
     {
-      "title": "pollera larga roja",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen20.jpg",
-      "id": 19
+      "id": 19,
+      "code": "FER019",
+      "product": "Taladro Percutor",
+      "description": "Taladro percutor con función de impacto para perforaciones en concreto.",
+      "price": 11654.45,
+      "item": "Ferretería",
+      "amount": 8,
+      "imagenes": []
     },
     {
-      "title": "pollera larga amarilla",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen22.jpg",
-      "id": 20
+      "id": 20,
+      "code": "FER020",
+      "product": "Llave de Tubo",
+      "description": "Llave de tubo ajustable para trabajos en tuberías y plomería.",
+      "price": 6205.85,
+      "item": "Ferretería",
+      "amount": 14,
+      "imagenes": []
     },
     {
-      "title": "pollera larga verde",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen23.jpg",
-      "id": 21
+      "id": 21,
+      "code": "FER021",
+      "product": "Taladro de Banco",
+      "description": "Taladro de banco con prensa para perforaciones precisas en materiales.",
+      "price": 12900,
+      "item": "Ferretería",
+      "amount": 5,
+      "imagenes": []
     },
     {
-      "title": "pollera larga azul",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen24.jpg",
-      "id": 22
+      "id": 22,
+      "code": "FER022",
+      "product": "Pegamento para Madera",
+      "description": "Pegamento especializado para unir piezas de madera de manera resistente.",
+      "price": 732.25,
+      "item": "Ferretería",
+      "amount": 30,
+      "imagenes": []
     },
     {
-      "title": "pollera larga fucsia",
-      "price": 53.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen24.jpg",
-      "id": 23
+      "id": 23,
+      "code": "FER023",
+      "product": "Escuadra",
+      "description": "Escuadra de carpintero de 90 grados para marcar y medir ángulos.",
+      "price": 498.99,
+      "item": "Ferretería",
+      "amount": 40,
+      "imagenes": []
     },
     {
-      "title": "pollera larga naranja",
-      "price": 54.99,
-      "description": "Un hermoso vestido largo de modal",
-      "category": "Vestidos",
-      "image": "imagen24.jpg",
-      "id": 24
+      "id": 24,
+      "code": "FER024",
+      "product": "Caja de Herramientas",
+      "description": "Caja resistente con compartimentos para organizar y transportar herramientas.",
+      "price": 26658.99,
+      "item": "Ferretería",
+      "amount": 10,
+      "imagenes": []
     },
     {
-      "title": "chaleco naranja",
-      "price": 54.99,
-      "description": "Un hermosa chaleco naranja con amarillo",
-      "category": "Vestidos",
-      "image": "imagen27.jpg",
-      "id": 25
+      "id": 25,
+      "code": "FER025",
+      "product": "Llave de Impacto",
+      "description": "Llave de impacto neumática para aflojar tuercas y tornillos.",
+      "price": 5445.5,
+      "item": "Ferretería",
+      "amount": 5,
+      "imagenes": []
+    },
+    {
+      "id": 26,
+      "code": "FER026",
+      "product": "Caja de Clavos",
+      "description": "Caja surtida de clavos de diversos tamaños y tipos para construcción.",
+      "price": 1805.99,
+      "item": "Ferretería",
+      "amount": 80,
+      "imagenes": []
+    },
+    {
+      "id": 27,
+      "code": "FER027",
+      "product": "Alambre de Soldadura",
+      "description": "Rollo de alambre de soldadura para trabajos de soldadura eléctrica.",
+      "price": 15999.25,
+      "item": "Ferretería",
+      "amount": 18,
+      "imagenes": []
+    },
+    {
+      "id": 28,
+      "code": "FER028",
+      "product": "Nivel Láser",
+      "description": "Nivel láser autonivelante para alineación precisa en múltiples superficies.",
+      "price": 17999.99,
+      "item": "Ferretería",
+      "amount": 3,
+      "imagenes": []
+    },
+    {
+      "id": 29,
+      "code": "FER029",
+      "product": "Lima",
+      "description": "Juego de limas para dar forma y pulir materiales como metal y madera.",
+      "price": 956.75,
+      "item": "Ferretería",
+      "amount": 20,
+      "imagenes": []
+    },
+    {
+      "id": 30,
+      "code": "FER030",
+      "product": "Guantes de Trabajo",
+      "description": "Par de guantes de trabajo resistentes a la abrasión y al corte.",
+      "price": 836.99,
+      "item": "Ferretería",
+      "amount": 40,
+      "imagenes": []
+    },
+    {
+      "id": 31,
+      "code": "TRQ001",
+      "product": "Tranquera de Madera Clásica",
+      "description": "Tranquera de madera tratada para uso en campos. Diseño clásico con acabado rústico.",
+      "price": 350000,
+      "item": "Tranquera",
+      "amount": 10,
+      "imagenes": [
+        "frontend/imagenes/tranqueraMadera1.jpg",
+        "tranqueraMadera1.jpg"
+      ]
+    },
+    {
+      "id": 32,
+      "code": "TRQ002",
+      "product": "Tranquera Metálica Resistente",
+      "description": "Tranquera de metal galvanizado resistente a la intemperie. Ideal para delimitar áreas en campos y fincas.",
+      "price": 480000.5,
+      "item": "Tranquera",
+      "amount": 5,
+      "imagenes": []
+    },
+    {
+      "id": 33,
+      "code": "TRQ003",
+      "product": "Tranquera de PVC Modular",
+      "description": "Tranquera modular de PVC que se ensambla fácilmente. Duradera y de bajo mantenimiento.",
+      "price": 220000.75,
+      "item": "Tranquera",
+      "amount": 8,
+      "imagenes": []
+    },
+    {
+      "id": 34,
+      "code": "TRQ004",
+      "product": "Tranquera de Hierro Forjado",
+      "description": "Tranquera artesanal de hierro forjado con detalles decorativos. Resistente y elegante.",
+      "price": 670968.25,
+      "item": "Tranquera",
+      "amount": 3,
+      "imagenes": []
+    },
+    {
+      "id": 35,
+      "code": "TRQ030",
+      "product": "Tranquera Eléctrica Solar",
+      "description": "Tranquera eléctrica con sistema de apertura y cierre automático mediante energía solar. Control remoto incluido.",
+      "price": 1280000,
+      "item": "Tranquera",
+      "amount": 2,
+      "imagenes": "https://i.pinimg.com/originals/9a/38/36/9a3836fc49b6dcffa313a0b9a4e074b6.jpg"
+    },
+    {
+      "id": 36,
+      "code": "V 500340",
+      "product": "BOTA CALFOR NAUTICA C/ CUELLO N°42",
+      "description": "Bota de trabajo con cuello, tamaño 42",
+      "price": 12856.32,
+      "item": "ropa trabajo",
+      "amount": 25,
+      "imagenes": []
+    },
+    {
+      "id": 37,
+      "code": "V 500345",
+      "product": "BOTA CALFOR NAUTICA C/ CUELLO N°43",
+      "description": "Bota de trabajo con cuello, tamaño 43",
+      "price": 14897.8,
+      "item": "ropa trabajo",
+      "amount": 22,
+      "imagenes": []
+    },
+    {
+      "id": 38,
+      "code": "V 500346",
+      "product": "CAMISA DE TRABAJO PAMPERO T 50",
+      "description": "Camisa de trabajo, talla 50",
+      "price": 6756.1,
+      "item": "ropa trabajo",
+      "amount": 50,
+      "imagenes": []
+    },
+    {
+      "id": 39,
+      "code": "V 500030",
+      "product": "BOTA CALFOR PAMP. NEGRA Nº 42",
+      "description": "Bota negra Pamp., tamaño 42",
+      "price": 23965.1,
+      "item": "ropa trabajo",
+      "amount": 9,
+      "imagenes": []
+    },
+    {
+      "id": 40,
+      "code": "V 500348",
+      "product": "Botin Pampero Flore c/punta marron n°40",
+      "description": "Botín de trabajo de flor con punta marrón, tamaño 40",
+      "price": 31025.98,
+      "item": "ropa trabajo",
+      "amount": 5,
+      "imagenes": []
+    },
+    {
+      "id": 41,
+      "code": "V 500348",
+      "product": "Botin Pampero Flore c/punta marron n°40",
+      "description": "Botín de trabajo de flor con punta marrón, tamaño 40",
+      "price": 31025.98,
+      "item": "ropa trabajo",
+      "amount": 5,
+      "imagenes": []
+    },
+    {
+      "code": "V 500348",
+      "product": "Botin Pampero Flore c/punta marron n°40",
+      "description": "Botín de trabajo de flor con punta marrón, tamaño 40",
+      "price": 31025.98,
+      "item": "ropa trabajo",
+      "amount": 3,
+      "imagenes": [],
+      "id": 42
+    },
+    {
+      "code": "V 500348",
+      "product": "Botin Pampero Flore c/punta marron n°40",
+      "description": "Botín de trabajo de flor con punta marrón, tamaño 40",
+      "price": 31025.98,
+      "item": "ropa trabajo",
+      "amount": 3,
+      "imagenes": [],
+      "id": 43
+    },
+    {
+      "code": "FER0067",
+      "product": "Llave",
+      "description": "Llave ajustable de 10 pulgadas para tuercas y tornillos.",
+      "price": 4025,
+      "item": "Ferretería",
+      "amount": 24,
+      "imagenes": [],
+      "id": 45
     }
   ]
 }
